@@ -3,6 +3,8 @@ lines = f.readlines()
 ans = 0
 # bol = False
 add1 = 0
+
+
 #
 # def vowelcount(line):
 #     vcount = 0
@@ -41,20 +43,20 @@ add1 = 0
 
 
 def sandwitch(line):
-    for let in range(1, len(line)-1):
-        if line[let-1] == line[let+1]:
+    for let in range(1, len(line) - 1):
+        if line[let - 1] == line[let + 1]:
             return True
     else:
         return False
 
+
 def twicedouble(line):
-    for fir in range(len(line)-3):
-        for sec in range(fir+2, len(line)-1):
-            if line[fir] == line[sec] and line[fir+1] == line[sec+1]:
+    for fir in range(len(line) - 3):
+        for sec in range(fir + 2, len(line) - 1):
+            if line[fir] == line[sec] and line[fir + 1] == line[sec + 1]:
                 return True
     else:
         return False
-
 
 
 for line in lines:
