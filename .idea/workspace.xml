@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab2bf88-e842-4552-9910-94eedd17ac42" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AdventofCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day01/Day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day02/Day02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day02/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day03/Day03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day03/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day07/Day07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day07/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day08/Day08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day08/input.txt" afterDir="false" />
+    <list default="true" id="5ab2bf88-e842-4552-9910-94eedd17ac42" name="Changes" comment="Day1, 2, 3 solved">
+      <change afterPath="$PROJECT_DIR$/AOC 2015/Day05/Day05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOC 2015/Day05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOC 2015/rough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sud1413"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sud1413/AdventofCode",
+    "accountId": "381aacc4-f3a1-4b51-bbaa-1f3f8ad4a55d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -53,13 +53,15 @@
     "Python.Day01.executor": "Run",
     "Python.Day02.executor": "Run",
     "Python.Day03.executor": "Run",
+    "Python.Day05.executor": "Run",
+    "Python.rough.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Day03">
+  <component name="RunManager" selected="Python.Day05">
     <configuration name="Day01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventofCode" />
       <option name="ENV_FILES" value="" />
@@ -126,8 +128,54 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Day05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdventofCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015/Day05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/Day05/Day05.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AdventofCode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/rough.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day05" />
+        <item itemvalue="Python.rough" />
         <item itemvalue="Python.Day03" />
         <item itemvalue="Python.Day02" />
         <item itemvalue="Python.Day01" />
@@ -150,6 +198,27 @@
       <option name="presentableId" value="Default" />
       <updated>1736242871605</updated>
     </task>
+    <task id="LOCAL-00001" summary="Day1, 2, 3 solved">
+      <option name="closed" value="true" />
+      <created>1736429632942</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736429632942</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Day1, 2, 3 solved">
+      <option name="closed" value="true" />
+      <created>1736429809522</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736429809522</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day1, 2, 3 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day1, 2, 3 solved" />
   </component>
 </project>
