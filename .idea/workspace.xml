@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ab2bf88-e842-4552-9910-94eedd17ac42" name="Changes" comment="Day5 solved">
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day04/Day04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day04/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day06/Day06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2015/Day06/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2024/Day01/Day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AOC 2024/Day01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Equilibrium.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/rough.py" afterDir="false" />
+    <list default="true" id="5ab2bf88-e842-4552-9910-94eedd17ac42" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AOC 2015/Day10/Day10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AOC 2015/Day10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/ArmstrongNumber.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problem/rough.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/rough.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/rough.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +52,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.ArmstrongNumber.executor": "Run",
     "Python.Day01.executor": "Run",
     "Python.Day02.executor": "Run",
     "Python.Day03.executor": "Run",
     "Python.Day05.executor": "Run",
+    "Python.Day10.executor": "Run",
     "Python.rough (1).executor": "Run",
+    "Python.rough (2).executor": "Run",
     "Python.rough.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -67,8 +67,8 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.rough (1)">
-    <configuration name="Day03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Day10">
+    <configuration name="ArmstrongNumber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventofCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015/Day03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/Day03/Day03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/ArmstrongNumber.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +112,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventofCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015/Day05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015/Day10" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/Day05/Day05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/Day10/Day10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,7 +156,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rough (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AdventofCode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,11 +165,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AOC 2015" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Problem" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AOC 2015/rough.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Problem/rough.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day10" />
+        <item itemvalue="Python.rough (2)" />
+        <item itemvalue="Python.ArmstrongNumber" />
         <item itemvalue="Python.rough (1)" />
         <item itemvalue="Python.Day04" />
-        <item itemvalue="Python.Day05" />
-        <item itemvalue="Python.rough" />
-        <item itemvalue="Python.Day03" />
       </list>
     </recent_temporary>
   </component>
@@ -236,12 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1736451864796</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="leetcode potd solved">
+      <option name="closed" value="true" />
+      <created>1737546087527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737546087527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day1, 2, 3 solved" />
     <MESSAGE value="Day5 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day5 solved" />
+    <MESSAGE value="leetcode potd solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode potd solved" />
   </component>
 </project>
